@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores del tema -->
+    <color name="primary">#E8FF00</color>
+    <color name="secondary">#1B2132</color>
+    <color name="tertiary">#3E4E7A</color>
+    <!-- COlores de textos -->
+    <color name="primary_text">#F4F4F4</color>
+    <color name="secondary_text">#6D788C</color>
+</resources>

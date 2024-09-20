@@ -1,0 +1,36 @@
+<resources>
+    <!-- Strings para la página de inicio -->
+    <string name="app_name">simulador_banco</string>
+    <string name="txt_tittle_main">!Nos encanta que estés aqui!</string>
+    <string name="txt_subtittle_main">Este será tu nuevo ecosistema financiero donde le sacarás el jugo a tu plata.</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_registrar">Registrarme</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- Strings para el login -->
+    <string name="txt_correo_login">Correo</string>
+    <string name="txt_contrasena_login">Contraseña</string>
+    <string name="txt_registrarse">Registrarse</string>
+
+    <!-- Strings para el registro -->
+    <string name="txt_usuario_registro">Usuario</string>
+    <string name="txt_contrasena_registro">Contraseña</string>
+    <string name="txt_correo_registro">Correo</string>
+    <string name="txt_telefono_registro">Telefono</string>
+    <string name="txt_documento_registro">Documento</string>
+
+    <!-- Strings para el home -->
+    <string name="txt_cuenta">Cuenta</string>
+    <string name="txt_tarjeta">Tarjeta</string>
+    <string name="txt_credito">Crédito</string>
+    <string name="txt_saldo_disponible">Saldo Disponible</string>
+    <string name="txt_saldo_dis_numero">1 000 000 $</string>
+    <string name="txt_saldo_total">20 000 000 $</string>
+    <string name="btn_recargar"> Recargar </string>
+    <string name="btn_tranferir"> Tranferir</string>
+    <string name="btn_solicitar"> Solicitar </string>
+    <string name="btn_retirar"> Retirar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

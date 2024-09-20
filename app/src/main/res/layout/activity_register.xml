@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary"
+    tools:context=".register.vista.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="212dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="51dp"
+        android:text="Somos lulo, ¿y tú?"
+        android:textColor="@color/primary_text"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="317dp"
+        android:layout_height="519dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="135dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <EditText
+            android:id="@+id/txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/tertiary"
+            android:hint="@string/txt_usuario_registro"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/tertiary"
+            android:textSize="20sp"            />
+        <EditText
+            android:id="@+id/txtDocumento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/tertiary"
+            android:hint="@string/txt_documento_registro"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/tertiary"
+            android:textSize="20sp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/tertiary"
+            android:hint="@string/txt_correo_login"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/tertiary"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtContrasenaRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/tertiary"
+            android:hint="@string/txt_contrasena_registro"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/tertiary"
+            android:textSize="20sp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/txtTelefonoRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/tertiary"
+            android:hint="@string/txt_telefono_registro"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/tertiary"
+            android:textSize="20sp"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/botonRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/primary"
+            android:background="@drawable/rounded_button"
+            android:textStyle="bold"
+            android:text="@string/txt_registrarse" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
